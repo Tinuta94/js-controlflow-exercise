@@ -69,3 +69,42 @@ let c = '\xa0\xa0\xa0' + 'WWW' + '\xa0\xa0\xa0'
 console.log(c)
 let d = '\xa0\xa0\xa0\xa0' + 'W' + '\xa0\xa0\xa0\xa0'
 console.log(d)
+
+
+let a = 5
+let b = 4
+let c = 7
+let d = 9
+let e = 8
+let f = 2
+if (a % 2 === 0) {
+ console.log('wrong')
+} else {
+  console.log('\xa0\xa0\xa0\xa0\xa0\xa0' + '^' + '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0')
+}
+if (b % 2 === 0) {
+console.log('\xa0\xa0\xa0\xa0\xa0' + '^^^' + '\xa0\xa0\xa0\xa0\xa0')
+} else {
+console.log('wrong')
+}
+if (c % 2 ===0) {
+console.log('wrong')
+} else {
+console.log('\xa0\xa0\xa0\xa0' + '^^^^^' + '\xa0\xa0\xa0\xa0')
+}
+if ( d % 2 === 0) {
+console.log('wrong')
+} else {
+console.log('\xa0\xa0\xa0' + '^^^^^^^' + '\xa0\xa0\xa0')
+}
+if (e % 2 === 0) {
+console.log('\xa0\xa0' + '^^^^^^^^^' + '\xa0\xa0')
+} else {
+console.log('wrong') 
+}
+if (f % 2 === 0) {
+console.log('\xa0' + '^^^^^^^^^^^' + '\xa0')
+} else {
+console.log('wrong')
+}
+
